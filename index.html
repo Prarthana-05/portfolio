@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#hackathons">Hackathons</a>
+      <a href="#academics">Academics</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#achievements">Internship</a>
+      <a href="#contact">Contact</a>
+      
+      
+    </nav>
+  </header>
+
+ <!-- HOME SECTION -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hi, I'm</h3>
+    <h1>Prarthana Ingawale</h1>
+    <h3><span>AI-Driven Web Developer</span>  </h3>
+    <p>
+      I'm a Computer Engineering student passionate about crafting clean, scalable digital solutions. I blend creativity with logic, love hackathons, and explore AI/ML to solve real-world challenges.
+    <div class="social-media">
+      <a href="https://github.com/Prarthana-05" target="_blank"><i class="fa-brands fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/prarthana-ingawale-080167370/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <a href="resume.pdf" download class="btn">Download CV</a>
+  </div>
+  <div class="home-img">
+    <img src="photo.jpeg" alt="profile photo" />
+  </div>
+</section>
+
+<!-- TECHNICAL SKILLS SECTION -->
+<section class="skills" id="skills">
+  <h2 class="heading">Technical <span>Skills</span></h2>
+  <div class="skills-container">
+    <div class="skills-box">
+      <h3>Languages</h3>
+      <p>Python, Java, C, JavaScript, HTML5, CSS3</p>
+    </div>
+    <div class="skills-box">
+      <h3>Frameworks & Libraries</h3>
+      <p>Node.js, Express.js, Streamlit, Bootstrap, React</p>
+    </div>
+    <div class="skills-box">
+      <h3>Databases</h3>
+      <p>MongoDB, PostgreSQL</p>
+    </div>
+    <div class="skills-box">
+      <h3>Tools & Platforms</h3>
+      <p>Git, GitHub, Docker, Figma, VS Code</p>
+    </div>
+  </div>
+</section>
+
+
+  <section class="hackathons" id="hackathons">
+  <h2 class="heading">Hackathons</h2>
+  <div class="hackathon-container">
+    <div class="hackathon-card">
+      <img src="Nirman.jpeg" alt="Nirnam 2025">
+      <h3>Nirnam 2025 – Amity University</h3>
+      <p>48-hour hackathon solving real-world problems with innovative tech solutions.</p>
+    </div>
+
+    <div class="hackathon-card">
+      <img src="hackverse.jpeg" alt="Hackverse 2025">
+      <h3>Hackverse 2025 – Watumull Institute</h3>
+      <p>Collaborated with a team to build creative solutions in a competitive environment.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="academics" id="academics">
+  <h2 class="heading">Academic <span>Excellence</span></h2>
+  <div class="academic-container">
+    <div class="academic-box">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <h3>CGPA</h3>
+      <p>Maintained a CGPA of <strong>10.0</strong> throughout engineering with excellence in core technical subjects.</p>
+    </div>
+
+    <div class="academic-box">
+  <i class="fa-solid fa-certificate"></i>
+  <h3>Certifications</h3>
+  <div class="certificate-gallery">
+  <button class="btn" onclick="openModal('topperCert')">View Class Topper Certificate</button>
+  <button class="btn" onclick="openModal('pythonCert')">View Python Excellence Certificate</button>
+  <button class="btn" onclick="openModal('almlCert')">View AI/ML Certificate</button>
+  <button class="btn" onclick="openModal('githubCert')">View GitHub Certificate</button>
+  <button class="btn" onclick="openModal('softSkillsCert')">View Soft Skills Certificate</button>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+ <section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Projects</span></h2>
+  <div class="portfolio-container">
+
+    <!-- Prototype Projects -->
+<div class="portfolio-box">
+  <img src="images.png" alt="Figma Prototype" />
+  <div class="portfolio-layer">
+    <h4>Prototype Designs (Figma)</h4>
+    <p>Designed user interfaces for projects like Chatbot & Resume Analyzer using Figma before implementation.</p>
+    <a href="https://www.figma.com/design/w3skiZeNA31tAEjRg5lVhX/Untitled?node-id=0-1&p=f&t=2z2LyQVGUgiOKbYx-0" target="_blank">
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a>
+  </div>
+</div>
+
+
+    <!-- Expense Tracker -->
+    <div class="portfolio-box">
+      <img src="expense.png" alt="Expense Tracker" />
+      <div class="portfolio-layer">
+        <h4>Expense Tracker</h4>
+        <p>Web app built with HTML, CSS, JS featuring user authentication for tracking daily expenses.</p>
+        <a href="https://expense-tracker-7f794.web.app" target="_blank">
+        <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Weather App -->
+    <div class="portfolio-box">
+      <img src="weather.png" alt="Weather App" />
+      <div class="portfolio-layer">
+        <h4>Weather App</h4>
+        <p>Real-time weather dashboard fetching data via API, responsive and interactive UI.</p>
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </div>
+    </div>
+
+    <!-- Movie App (React) -->
+    <div class="portfolio-box">
+      <img src="movie.png" alt="Movie App" />
+      <div class="portfolio-layer">
+        <h4>Movie App (React)</h4>
+        <p>Frontend project using React with dummy movie data and dynamic rendering of movie cards.</p>
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </div>
+    </div>
+
+    <!-- Airbnb Clone -->
+    <div class="portfolio-box">
+      <img src="airb.png" alt="Airbnb Clone" />
+      <div class="portfolio-layer">
+        <h4>Airbnb Clone</h4>
+        <p>Full Stack project with authentication, booking features, and dynamic listings using MERN stack.</p>
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="dpdp.png" alt="Project 6" />
+      <div class="portfolio-layer">
+        <h4>DPDP Compliance</h4>
+        <p>Developed an DPDP Compliance Platform for automated website policy scanning, risk detection, and privacy assessment.</p>
+        <a href="https://hackverse---dpdp-d6vkkumfrqzqvzx35bug7t.streamlit.app" target="_blank">
+        <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="achievements" id="achievements">
+ <div class="academic-box">
+  <i class="fa-solid fa-briefcase"></i>
+  <h3>Jr. Full‑Stack Developer Intern</h3>
+  <p>VidyarthiMitra.org, Mumbai | May 2025 – June 2025</p>
+  <p>Worked on the Non‑CET Registration Portal using React.js and Node.js — developed dynamic forms, integrated backend APIs, and managed data flow securely.</p>
+  <div class="internship-buttons">
+  
+  <a href="https://non-5if2r58vf-prarthana-05s-projects.vercel.app" target="_blank" class="btn">View Project</a>
+
+    <a href="intern.jpeg" target="_blank" class="btn">View Internship Certificate</a>
+  </div>
+</div>
+
+</section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+  <form id="contact-form" action="https://formspree.io/f/mwpqepzr" method="POST">
+  <div class="input-box">
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="email" name="email" placeholder="Email Address" required />
+  </div>
+
+  <div class="input-box">
+    <input type="tel" name="phone" placeholder="Mobile Number" required />
+    <input type="text" name="subject" placeholder="Email Subject" />
+  </div>
+
+  <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+  <input type="submit" value="Send Message" class="btn" />
+</form>
+
+<!-- Thank you message will appear here -->
+<div id="form-status" style="margin-top: 20px; font-size: 1.6rem;"></div>
+
+
+
+</section>
+  <footer class="footer">
+    <div class="footer">
+      <p>Email:prarthana.ingawale@vit.edu.in | Phone: +91-7875660476 | College:Vidyalankar Institute of Technology</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+ 
+
+
+<!-- Class Topper Certificate -->
+<div id="topperCert" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('topperCert')">&times;</span>
+    <h3>Class Topper Certificate</h3>
+   <img src="class.jpeg" alt="Class Certificate" style="max-width: 100%; height: auto;" />
+  </div>
+</div>
+
+<!-- Python Excellence Certificate -->
+<div id="pythonCert" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('pythonCert')">&times;</span>
+    <h3>Python Excellence Certificate</h3>
+    <img src="python.jpeg" alt="Python Certificate" style="max-width: 100%; height: auto;" />
+  </div>
+</div>
+
+<!-- AI/ML Certificate -->
+<div id="almlCert" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('almlCert')">&times;</span>
+    <h3>AI/ML Certificate</h3>
+    <img src="alml.jpeg" alt="AI/ML Certificate" style="max-width: 100%; height: auto;" />
+  </div>
+</div>
+
+<!-- GitHub Certificate -->
+<div id="githubCert" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('githubCert')">&times;</span>
+    <h3>GitHub Certificate</h3>
+   <img src="github.jpeg" alt="GitHub Certificate" style="max-width: 100%; height: auto;" />
+  </div>
+</div>
+
+
+<div id="softSkillsCert" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal('softSkillsCert')">&times;</span>
+    <h3>Soft Skills Certificate</h3>
+    <img src="softskill.jpeg" alt="Soft Skills Certificate" style="max-width: 100%; height: auto;" />
+  </div>
+</div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
